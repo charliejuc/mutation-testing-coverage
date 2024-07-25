@@ -33,7 +33,7 @@ This command will execute the tests defined in the project and generate snapshot
 
 To perform mutation testing and check the robustness of the tests, use the following command:
 ```bash
-npm run stryker
+npx stryker run
 ```
 
 This command will run Stryker, which will mutate the code and verify if the existing tests can detect these mutations. The goal is to demonstrate that while Jest tests pass with 100% coverage, they may fail to catch certain mutations, highlighting potential weaknesses in the test suite.
