@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getUserInfo returns correct object for adult 1`] = `
+{
+  "age": 30,
+  "description": "Adult",
+  "name": "John Doe",
+}
+`;
+
+exports[`getUserInfo returns correct object for minor 1`] = `
+{
+  "age": 16,
+  "description": "Young",
+  "name": "Johnny Doe",
+}
+`;
+
+exports[`getUserInfo with different user 1`] = `
+{
+  "age": 25,
+  "description": "Adult",
+  "name": "Jane Doe",
+}
+`;
