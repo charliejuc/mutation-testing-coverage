@@ -1,0 +1,18 @@
+{
+  "name": "coverage-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "stryker": "^0.35.1",
+    "stryker-api": "^0.24.1",
+    "stryker-jest-runner": "^1.4.1"
+  }
+}
